@@ -1,1 +1,18 @@
 @import "tailwindcss";
+@plugin "daisyui" {
+  themes: nord --default;
+}
+
+@plugin "daisyui/theme" {
+  name: "nord";
+  default: true;
+  --color-primary: var(--color-rose-500);
+}
+
+@utility flex-center {
+  @apply flex justify-center items-center;
+}
+
+@utility flex-start {
+  @apply flex justify-start items-center;
+}
