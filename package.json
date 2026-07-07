@@ -14,5 +14,9 @@
     "typescript": "~5.9.3",
     "vite": "^8.0.0",
     "vite-plugin-zip-pack": "^1.2.4"
+  },
+  "dependencies": {
+    "@tailwindcss/vite": "^4.3.2",
+    "tailwindcss": "^4.3.2"
   }
 }
